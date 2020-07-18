@@ -1,0 +1,27 @@
+
+> chatbot@1.0.0 build C:\Users\pengu\OneDrive\Documents\alaynasStuff\chatbot
+> webpack "."
+
+Hash: fdb99308e74e57c5c999
+Version: webpack 4.43.0
+Time: 1047ms
+Built at: 07/18/2020 2:26:47 AM
+   Asset      Size  Chunks             Chunk Names
+index.js  1.41 MiB       0  [emitted]  main
+Entrypoint main = index.js
+ [0] ./dist/index.js 1.41 MiB {0} [built]
+ [1] external "net" 42 bytes {0} [built]
+ [2] external "url" 42 bytes {0} [built]
+ [3] external "util" 42 bytes {0} [built]
+ [4] external "punycode" 42 bytes {0} [built]
+ [5] external "crypto" 42 bytes {0} [built]
+ [6] external "buffer" 42 bytes {0} [built]
+ [7] external "http" 42 bytes {0} [built]
+ [8] external "https" 42 bytes {0} [built]
+ [9] external "stream" 42 bytes {0} [built]
+[10] external "zlib" 42 bytes {0} [built]
+[11] external "querystring" 42 bytes {0} [built]
+[12] external "assert" 42 bytes {0} [built]
+[13] external "path" 42 bytes {0} [built]
+[14] external "tls" 42 bytes {0} [built]
+    + 2 hidden modules

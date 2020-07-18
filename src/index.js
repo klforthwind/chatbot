@@ -1,11 +1,14 @@
-import ComfyJS from "comfy.js";
+const ComfyJS = require("comfy.js");
+require('dotenv').config(); // Loads the env variables found in .env
 ComfyJS.onCommand = ( user, command, message, flags, extra ) => {
-  if( command === "test" ) {
-    console.log( "!test was typed in chat" );
+  // New command that will greet someone with they type !hello in the chat
+  if( command === "hello" ) {
+    ComfyJS.Say("Hello, ${user}")
   }
 }
-// Code below listens to all chat messages and logs them out
 ComfyJS.onChat = ( user, message, flags, self, extra ) => {
+  // Logs all messages being sent to Twitch chat
   console.log( user, message );
 }
-ComfyJS.Init( "codingzeal" );
+// Uses our env variables to login as your Twitch user into the chat
+ComfyJS.Init( process.env.TWITCHUSER, process.env.OAUTH );
