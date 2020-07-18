@@ -1,0 +1,24 @@
+{
+  "name": "chatbot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/klforthwind/chatbot.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/klforthwind/chatbot/issues"
+  },
+  "homepage": "https://github.com/klforthwind/chatbot#readme",
+  "devDependencies": {
+    "clean-webpack-plugin": "^3.0.0"
+  }
+}
